@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schema-driven workspace provisioning over a REST API, Rose Villanueva</title><meta name="description" content="A workspace of three databases, a hub page and eleven seeded pages, defined as JSON schema files and created by one dependency-free script in about two minutes, so the structure is reproducible rather than hand-built once and undocumented.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=aa6f0bf4"></head><body>
+<div class="layout">
+  <aside class="aside">
+    <div class="avatar"><img src="avatar.png" alt="Rose Villanueva speaking at a conference"></div>
+    <a class="side-name" href="index.html">Rose Villanueva</a>
+    <p class="side-sub">Integration &amp; Automation Engineer</p>
+
+    <div class="side-block">
+      <p class="side-label">About</p>
+      <p>
+        I have worked in technical operations for more than twenty years, in payments,
+        e-commerce, support and membership systems.
+      </p>
+      <p>
+        The work is integration, data migration, automation and, more recently, AI. I take on
+        the architecture as well as the build, usually as the only technical person on the
+        account.
+      </p>
+    </div>
+
+    <div class="side-block">
+      <p class="side-label">Stack</p>
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">SQL</span>
+        <span class="chip">PostgreSQL</span>
+        <span class="chip">REST APIs</span>
+        <span class="chip">Webhooks</span>
+        <span class="chip">Claude API</span>
+        <span class="chip">RAG</span>
+        <span class="chip">MCP</span>
+        <span class="chip">Evals</span>
+        <span class="chip">Cloudflare Workers</span>
+        <span class="chip">Supabase</span>
+        <span class="chip">Git</span>
+      </div>
+    </div>
+
+    <div class="side-block">
+      <p class="side-label">What I do</p>
+      <ul class="side-rows">
+        <li>Automate work that repeats, end to end</li>
+        <li>Connect platforms never built to talk to each other</li>
+        <li>Move and clean data without losing anything</li>
+        <li>Design LLM agents, RAG retrieval and the instruction sets behind them</li>
+        <li>Apply instructional design to systems people have to learn</li>
+        <li>Document systems so a team can run them without me</li>
+      </ul>
+    </div>
+
+    <div class="side-block">
+      <p class="side-label">What I build</p>
+      <ul class="side-rows">
+        <li>LLM agents, MCP servers, skills and RAG retrieval layers</li>
+        <li>Data pipelines and scheduled jobs</li>
+        <li>Courses and the platforms that deliver them</li>
+        <li>Directory and membership platforms</li>
+        <li>Approval and review workflows</li>
+        <li>Email lifecycle and outreach automation</li>
+        <li>Internal tools and admin sites</li>
+      </ul>
+    </div>
+
+    <div class="side-block">
+      <p class="side-label">Contact</p>
+      <ul class="side-rows">
+        <li><a href="https://github.com/rosevillanuevadev">github.com/rosevillanuevadev</a></li>
+      </ul>
+    </div>
+
+    <div class="side-block">
+      <p class="side-label">Speaking</p>
+      <ul class="side-rows speaking">
+        <li>Support Driven Expo <span>Chicago</span></li>
+        <li>WordCamp Vienna <span>Austria</span></li>
+        <li>WooCommerce Workshop <span>Singapore</span></li>
+      </ul>
+    </div>
+  </aside>
+  <main class="main-col paper">
+    <a href="index.html" class="crumb">&larr; Work</a>
+    <h1 class="paper-title">Schema-driven workspace provisioning over a REST API</h1>
+    <div class="links-row">
+      <a class="lnk repo" href="https://github.com/rosevillanuevadev/cm1020-notion-workspace" target="_blank" rel="noopener">Repository</a>
+    </div>
+    <div class="paper-meta"><span>Node, JSON schema</span><span>Public repo</span><span>Setup script</span></div>
+    <p>A workspace of three databases, a hub page and eleven seeded pages, defined as JSON schema files and created by one dependency-free script in about two minutes, so the structure is reproducible rather than hand-built once and undocumented.</p>
+    <figure class="fig"><svg viewBox="0 0 600 132" role="img" aria-label="JSON schema files drive a single script that creates the hub page, three databases and the seeded rows."><defs><marker id="s2" viewBox="0 0 10 8" refX="9" refY="4" markerWidth="7" markerHeight="6" orient="auto"><polygon points="0,0 10,4 0,8" fill="var(--text-dim)"/></marker></defs><g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="9.5" text-anchor="middle"><rect x="12" y="8" width="128" height="32" rx="6" fill="none" stroke="var(--blue)" stroke-width="1.4"/><text x="76.0" y="27.5" fill="var(--text-strong)">session-log.json</text><rect x="12" y="50" width="128" height="32" rx="6" fill="none" stroke="var(--blue)" stroke-width="1.4"/><text x="76.0" y="69.5" fill="var(--text-strong)">topic-progress.json</text><rect x="12" y="92" width="128" height="32" rx="6" fill="none" stroke="var(--blue)" stroke-width="1.4"/><text x="76.0" y="111.5" fill="var(--text-strong)">rules.json</text><path d="M144 24 H196 V58" fill="none" stroke="var(--text-dim)" stroke-width="1.3" marker-end="url(#s2)"/><path d="M144 66 H196 V66" fill="none" stroke="var(--text-dim)" stroke-width="1.3" marker-end="url(#s2)"/><path d="M144 108 H196 V58" fill="none" stroke="var(--text-dim)" stroke-width="1.3" marker-end="url(#s2)"/><rect x="200" y="48" width="124" height="36" rx="6" fill="none" stroke="var(--violet)" stroke-width="1.4"/><text x="262.0" y="64.0" fill="var(--text-strong)">setup script</text><text x="262.0" y="77.0" fill="var(--text-dim)" font-size="8.5">25 calls, 350ms</text><path d="M326 66 H368" fill="none" stroke="var(--text-dim)" stroke-width="1.3" marker-end="url(#s2)"/><rect x="372" y="8" width="120" height="32" rx="6" fill="none" stroke="var(--teal)" stroke-width="1.4"/><text x="432.0" y="27.5" fill="var(--text-strong)">hub page</text><rect x="372" y="50" width="120" height="32" rx="6" fill="none" stroke="var(--teal)" stroke-width="1.4"/><text x="432.0" y="69.5" fill="var(--text-strong)">3 databases</text><rect x="372" y="92" width="120" height="32" rx="6" fill="none" stroke="var(--teal)" stroke-width="1.4"/><text x="432.0" y="111.5" fill="var(--text-strong)">10 seeded rows</text></g></svg></figure>
+    <h2>Project scope</h2>
+    <p>
+      The workspace was originally built by hand through a chat connector. That works once. It
+      leaves no definition anyone can inspect, no way to rebuild it, and no way for a second
+      person to stand up the same structure.
+    </p>
+    <h2>Constraints</h2>
+    <ul>
+      <li>The API rate-limits at roughly three requests per second.</li>
+      <li>Payload shape is version-dependent, and the format keeps changing across API versions.</li>
+      <li>The integration can only write where it has been explicitly invited, which is a setup step users forget.</li>
+      <li>Should run with no install step.</li>
+    </ul>
+    <h2>Approach</h2>
+    <ol>
+      <li>Move the schema out of the chat transcript and into version-controlled JSON, one file per database.</li>
+      <li>Drive creation from those files so the definition and the artifact cannot drift apart.</li>
+      <li>Pin the API version explicitly rather than tracking whatever is current.</li>
+      <li>Offer a dry run, because a partial failure leaves debris that has to be deleted by hand.</li>
+    </ol>
+    <h2>Implementation</h2>
+    <p>
+      Twenty-five API calls in sequence: the hub page, three databases from their schema files,
+      ten seeded rows, and eleven notes pages. A 350 millisecond pause between calls keeps it
+      under the published rate limit. On failure it stops and names the step rather than
+      continuing into an inconsistent state.
+    </p>
+    <h3>Two design decisions worth stating</h3>
+    <p>
+      <strong>Selects rather than relations.</strong> Every database references topics through a
+      select field rather than a relation. A client can write a select using only its name. A
+      relation requires resolving the related page identifier first, which turns one write into
+      a query plus a write. Shared option names and colors keep the databases visually coherent
+      without the coupling.
+    </p>
+    <p>
+      <strong>Ordinals inside the labels.</strong> Confidence values read "3 - Getting it" rather
+      than "Getting it", so they sort correctly while still reading naturally. A small thing that
+      removes the need for a separate sort key.
+    </p>
+    <h3>The property-shape bug</h3>
+    <p>
+      The chat connector flattens dates into a single key. The REST API requires a nested object.
+      Mixing the two produced a validation error in the consuming application that took a while
+      to trace, because the error named a field rather than the format. The schema files exist
+      partly so that shape is written down once and reused.
+    </p>
+    <div class="shots">
+      <figure class="shot"><img src="shots/notion-workspace.jpg" alt="The provisioned workspace. Hub page, three databases and the seeded to" loading="lazy"><figcaption>The provisioned workspace. Hub page, three databases and the seeded topic rows, all created by one script from the JSON schema files.</figcaption></figure>
+    </div>
+
+    <h2>Result</h2>
+    <ul>
+      <li>A workspace anyone can rebuild from a repository in about two minutes.</li>
+      <li>The schema is inspectable and versioned rather than living in a chat history.</li>
+      <li>Runs on Node with no dependencies to install or audit.</li>
+    </ul>
+    <h2>Stack</h2>
+    <div class="chips"><span class="chip">Node.js</span><span class="chip">Notion API</span><span class="chip">JSON Schema</span><span class="chip">REST</span><span class="chip">Rate limiting</span></div>
+
+  </main>
+</div></body></html>
